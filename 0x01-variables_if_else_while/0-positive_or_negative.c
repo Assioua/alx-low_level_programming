@@ -2,7 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
-/* Main : calculating if n is equal to zero , negative or positive */
+/**
+ *  main : calculating if n is equal to zero , negative or positive
+ */
 int main(void)
 {
 	int n;
