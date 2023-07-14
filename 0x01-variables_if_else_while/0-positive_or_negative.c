@@ -5,7 +5,7 @@
 /**
  *  main - calculating if n is equal to zero , negative or positive
  *  
- *  Return : return nothing
+ *  return : return nothing
  */
 int main(void)
 {
