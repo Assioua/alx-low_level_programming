@@ -11,15 +11,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
         if(n==0)
 	{
-		puts("is zero")
+		puts("is zero");
 	}
 	if(n>0)
 	{
-		puts("is positive")
+		puts("is positive");
 	}
 	if(n<0)
 	{
-		puts("is negative")
+		puts("is negative");
 	}
 	return (0);
 }
