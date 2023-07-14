@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - calculating if n is equal to zero , negative or positive
- *  
+*
  * Return: return nothing
  */
 int main(void)
@@ -14,7 +14,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n == 0)
 	{
-	printf("%d is zero\n", n); 
+		printf("%d is zero\n", n); 
 	}
 	if (n > 0)
 	{
