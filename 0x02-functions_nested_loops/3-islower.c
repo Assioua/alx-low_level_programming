@@ -2,6 +2,9 @@
 
 /**
  * _islower - return 1 if param is lowercase
+ * @c: number inserted by user
+ *
+ * Return: return 1 if param is lowercase and 0 if not
 */
 
 int _islower(int c)
@@ -18,5 +21,5 @@ int _islower(int c)
 		}
 	}
 
-	return r;
+	return (r);
 }
