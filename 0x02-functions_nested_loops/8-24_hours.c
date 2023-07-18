@@ -24,7 +24,7 @@ void jack_bauer(void)
 
 		if (i >= 10)
 		{
-			_putchar(48 + i);
+			_putchar(i + '0');
 			_putchar(':');
 		}
 
@@ -35,11 +35,11 @@ void jack_bauer(void)
 			}
 			if (j >= 10)
 			{
-				_putchar(48 + j);
+				_putchar(j + '0');
 			}
 
 			_putchar('\n');
-		}
+		i}
 	}
 }
 
