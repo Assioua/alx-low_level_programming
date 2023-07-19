@@ -20,15 +20,22 @@ void times_table(void)
 				lastNbr = r % 10;
 				_putchar('0' + firstNbr);
 				_putchar('0' + lastNbr);
+				
+				if (j < 9)
+				{
 				_putchar(',');
 				_putchar(' ');
+				}
 			}
 			else
 			{
 				_putchar('0' + r);
+				if (j < 9)
+				{
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
+				}
 			}
 
 		}
