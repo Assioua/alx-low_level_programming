@@ -20,14 +20,17 @@ void times_table(void)
 				lastNbr = r % 10;
 				_putchar('0' + firstNbr);
 				_putchar('0' + lastNbr);
+				_putchar(',');
+				_putchar(' ');
 			}
 			else
 			{
 				_putchar('0' + r);
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
 			}
 
-			_putchar(',');
-			_putchar('	');
 		}
 
 		_putchar('\n');
