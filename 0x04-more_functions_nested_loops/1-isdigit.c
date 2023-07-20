@@ -3,7 +3,7 @@
 /**
  * _isdigit - check if param is digit
  * @c: param passed by user
- * Return: 1 if digit 0 if not
+ * Return: returns  1 if digit 0 if not
 */
 
 int _isdigit(int c)
