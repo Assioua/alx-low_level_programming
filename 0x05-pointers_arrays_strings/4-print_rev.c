@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_dev - print sentence in reverse
+ * print_rev - print sentence in reverse
  * @s: param
 */
 
@@ -16,8 +16,8 @@ void print_rev(char *s)
 		a++;
 	}
 
-	for ( b = a ; b >= 0 ; b--)
-	{	
+	for (b = a ; b >= 0 ; b--)
+	{
 		if (s[b] != '\0')
 		{
 		_putchar(s[b]);
