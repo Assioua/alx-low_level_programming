@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
- * void swap_int - swap two integers
+ * swap_int - swap two integers
  * @a: first param int
  * @b: second int param
 */
-
 void swap_int(int *a, int *b)
 {
 	int c;
