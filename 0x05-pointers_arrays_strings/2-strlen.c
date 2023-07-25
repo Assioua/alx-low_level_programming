@@ -7,9 +7,9 @@
  * Return: returns the numbers of caracters in a string
 */
 
-int _strlen(char *s)
+size_t  _strlen(char *s)
 {
-	int size;
+	size_t  size;
 	
 	size = sizeof(s);
 
