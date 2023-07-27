@@ -2,8 +2,10 @@
 
 /**
  * reverse_array - reverse array of int
+ *
  * @a: array if int
  * @n: number of ints in the array
+ *
 */
 
 void reverse_array(int *a, int n)
