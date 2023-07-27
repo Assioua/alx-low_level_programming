@@ -3,6 +3,7 @@
 /**
  * cap_string - capitalize all first letter
  * @str: param
+ *
  * Return: new capitalized string
  */
 
