@@ -6,7 +6,6 @@
  *
  * Return: new capitalized string
  */
-
 char *cap_string(char *str)
 {
 	int i, j;
