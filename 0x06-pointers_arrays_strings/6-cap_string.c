@@ -9,6 +9,7 @@
 char *cap_string(char *str)
 {
         int i, j;
+	
         char arr_sep[] = {32,9,10,44,59,46,33,63,34,40,41,123,125};
 
         for (i = 0; str[i] != '\0' ; i++)
@@ -17,7 +18,6 @@ char *cap_string(char *str)
                 {
                         str[i] -= 32;
                 }
-
                 for (j = 0; j < 13; j++)
                 {
                         if (arr_sep[j] == str[i] && str[i+1] >= 'a' && str[i+1] <= 'z')
