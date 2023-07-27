@@ -4,6 +4,7 @@
  * _strcat - add string to another
  * @dest: 1st param
  * @src: 2nd param
+ *
  * Return: pointer to the new string
 */
 

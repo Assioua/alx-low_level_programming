@@ -1,16 +1,17 @@
 #include "main.h"
 
 /**
- * cap_string - capitalize all first letter
+ * cap_string - capitalizes every word
  * @str: param
  *
- * Return: new capitalized string
+ * Return: new string
  */
 char *cap_string(char *str)
 {
 	int i, j;
 
-	char arr_sep[] = {32,9,10,44,59,46,33,63,34,40,41,123,125};
+	char sp[13] = {' ', '\t', '\n', ',', ';', '.',
+		'!', '?', '"', '(', ')', '{', '}'};
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
@@ -19,7 +20,7 @@ char *cap_string(char *str)
 
 		for (j = 0; j < 13; j++)
 		{
-			if (str[i] == arr_sep[j])
+			if (str[i] == sp[j])
 			{
 				if (str[i + 1] >= 'a' && str[i + 1] <= 'z')
 				{
@@ -29,5 +30,5 @@ char *cap_string(char *str)
 		}
 	}
 
-	return (str);
+	return (s);
 }
