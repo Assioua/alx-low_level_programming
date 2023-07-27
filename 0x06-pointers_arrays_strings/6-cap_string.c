@@ -4,7 +4,7 @@
  * cap_string - capitalize all first letter
  * @str: param
  * Return: new capitalized string
-*/
+ */
 
 char *cap_string(char *str)
 {
@@ -25,9 +25,6 @@ char *cap_string(char *str)
                                 str[i+1] -= 32;
                         }
                 }
-
         }
-
         return (str);
-
 }
