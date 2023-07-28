@@ -1,39 +1,28 @@
 #include "main.h"
 
 /**
- * leet - change letters to nums according to leet code
- *
+ * leet - swap letter with nums
  * @str: param
- * Return: returns new sentence with nums
-*/
-
+ *
+ * Return: new string with numbers
+ */
 char *leet(char *str)
 {
-        int i, x;
+	int i, j;
 
-        int j = 0;
+	char *x = "aAeEoOtTlL";
+	char *y = "4433007711";
 
-        unsigned char alph[] = {'A' , 'E' , 'O' , 'T' , 'L'};
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		for (j = 0; j < 10; j++)
+		{
+			if (str[i] == x[j])
+			{
+				str[i] = y[j];
+			}
+		}
+	}
 
-        unsigned char alph2[] = {'a' , 'e' , 'o' , 't' , 'l'};
-
-        unsigned char num[] = {4 , 3 , 0, 7 , 1};
-
-        for (x = 0; x < 5; x++)
-        {
-
-                for (i = 0; str[i] != '\0'; i++)
-                {
-
-                if (str[i] == alph[j] || str[i] == alph2[j])
-                {
-                        str[i] = num[j] + '0';
-                }
-
-        }
-                j++;
-        }
-
-        return (str);
-
+	return (str);
 }
