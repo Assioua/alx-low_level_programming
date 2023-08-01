@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_chessboard - print a chess board
  * @a: param
