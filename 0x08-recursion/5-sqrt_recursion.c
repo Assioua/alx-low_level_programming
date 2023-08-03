@@ -13,7 +13,7 @@ int check_for_square(int x, int y)
 		return (x);
 	if (x * x > y)
 		return (-1);
-	return (check(x + 1, y));
+	return (check_for_square(x + 1, y));
 }
 
 /**
