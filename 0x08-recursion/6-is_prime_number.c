@@ -4,7 +4,7 @@
  * check_for_prime - check for prime
  * @x:first param
  * @y:second param
- * 
+ *
  * Return: returns if prime
  */
 int check_for_prime(int x, int y)
@@ -20,7 +20,7 @@ int check_for_prime(int x, int y)
 /**
  * is_prime_number - find prime number
  * @n:int
- * Return: returns number if prime 
+ * Return: returns number if prime
  */
 int is_prime_number(int n)
 {
