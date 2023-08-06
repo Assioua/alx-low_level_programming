@@ -1,6 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * main - print name of program
+ * @argc: arguments count
+ * @argv: arguments vector
+ *
+ * Return: returns success
+*/
+
 int main(int argc, char **argv)
 {
 	printf("%s", argv[0]);
