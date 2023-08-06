@@ -4,9 +4,9 @@
 /**
  * main - multiplication of args
  * @argc: first param
- * @argc: second param
+ * @argv: second param
  *
- * Return : return fail or success
+ * Return: return fail or success
  */
 
 int main(int argc, char **argv)
@@ -14,7 +14,7 @@ int main(int argc, char **argv)
 	int count = 0;
 	int x, y;
 
-	if(argc < 3)
+	if (argc < 3)
 	{
 		printf("Error\n");
 
