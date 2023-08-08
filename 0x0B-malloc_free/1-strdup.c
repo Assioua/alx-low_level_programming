@@ -16,7 +16,7 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 	{
-		return (NULL);
+		return (str);
 	}
 	else
 	{
@@ -26,6 +26,4 @@ char *_strdup(char *str)
 		}
 		return (s);
 	}
-
-	return (0);
 }
