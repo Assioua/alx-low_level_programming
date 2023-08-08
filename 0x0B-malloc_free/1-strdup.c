@@ -26,4 +26,6 @@ char *_strdup(char *str)
 		}
 		return (s);
 	}
+
+	return (0);
 }
