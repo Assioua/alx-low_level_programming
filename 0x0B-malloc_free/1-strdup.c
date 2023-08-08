@@ -15,7 +15,8 @@ char *_strdup(char *str)
 	int i;
 
 	if (str == NULL)
-	{
+	{	
+		free(s);
 		return (str);
 	}
 	else
