@@ -1,30 +1,30 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
 
 /**
- * _strdup - return pointer to the string param
- * @str: pointer param
+ * _strdup - pointer to new string cpy
+ * @str: param
  *
- * Return: return pointer to param string
-*/
-
+ * Return: returns a pointer to the duplicated string.
+ */
 char *_strdup(char *str)
-{	
-	char *s = malloc(sizeof(str));
-	int i;
+{
+	char *cpy;
+	int i, len = 0;
 
 	if (str == NULL)
-	{	
-		free(s);
-		return (str);
-	}
-	else
-	{
-		for (i = 0; str[i] != '\0' ; i++)
-		{
-			s[i] = str[i];
-		}
-		return (s);
-	}
+		return (NULL);
+
+	while (str[len] != '\0')
+		len++;
+
+	cpy = (char *)malloc((sizeof(str)));
+	if (cpy == NULL)
+		return (NULL);
+
+	for (i = 0; i < len; i++)
+		cpy[i] = str[i];
+	cpy[len] = '\0';
+
+	return (cpy);
 }
