@@ -1,5 +1,9 @@
 #include "_putchar.c"
 
+/**
+ * main - print file of execution
+ */
+
 int main(void)
 {
 	char arr[] = __FILE__;
