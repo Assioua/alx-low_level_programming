@@ -1,3 +1,6 @@
+#ifndef DOG_H
+#define DOG_H
+
 /**
  * struct dog - dog define struct
  * @name: first param
@@ -13,3 +16,4 @@ struct dog
 	double age;
 	char *owner;
 };
+#endif
