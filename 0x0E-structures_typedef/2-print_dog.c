@@ -4,10 +4,8 @@
 
 void print_dog(struct dog *d)
 {
-        if (d == NULL)
+        if (d != NULL)
         {
-                exit(0);
-        }
         if ( d->name != NULL)
         {
                 printf("name : %s\n", d->name);
@@ -16,14 +14,7 @@ void print_dog(struct dog *d)
         {
                 printf("name : nil\n");
         }
-        if (d->age != 0)
-        {
-                printf("age : %f\n", d->age);
-        }
-        else
-        {
-                printf("age : nil\n");
-        }
+	printf("age : %f\n", d->age);
         if (d->owner != NULL)
         {
                 printf("owner : %s\n", d->owner);
@@ -31,5 +22,6 @@ void print_dog(struct dog *d)
 	else
 	{
 		printf("owner : nil\n");
+	}
 	}
 }
