@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * print_opcodes - print the opcodes 
+ * print_opcodes - print the opcodes
  * @a: main function adress
- * @n: number of bytes 
+ * @n: number of bytes
  */
 void print_opcodes(char *a, int n)
 {
