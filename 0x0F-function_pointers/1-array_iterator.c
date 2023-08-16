@@ -2,7 +2,7 @@
 
 /**
  * array_iterator - function
- * @array: array 
+ * @array: array
  * @size: array size
  * @action:  pointer to function
  *
